@@ -3,11 +3,10 @@ library(ggplot2)
 
 shinyUI(
   
-  navbarPage("Tabs:",
+  navbarPage("Index Annuity Calculator",
     tabPanel("Application", 
       fluidPage(
-      titlePanel("8-Year Index Annuity Calculator /w Biennial S&P500 Indexing", 
-                 windowTitle="Index Annuity Calculator /w Biennial S&P500 Indexing"),
+      titlePanel("8-Year Index Annuity Calculator /w Biennial S&P500 Indexing"),
       sidebarLayout(
         sidebarPanel(
               numericInput("gRate", "Guaranteed Minimum Interest Rate", 0.0055, min=0, max=NA, step=0.0001),
