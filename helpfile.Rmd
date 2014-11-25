@@ -32,7 +32,7 @@ The solution to this is indexed annuities.  Indexed annuities have a variable re
 
 ## The purpose of this Application
 
-This application is attempting to provide detailed historical returns for one very popular type of index annuity.  You provide 3 policy parameters plus a policy start date range, and the application will calculate the equivalent fixed index return if you purchased a policy on each date in that range.
+This application is attempting to provide detailed historical returns for one very popular type of index annuity.  You provide 3 policy parameters plus a policy start date range, and the application will calculate the equivalent fixed annuity interest rate if you purchased a policy on each date in that range.
 
 ## Input Variables and Calculated Return
 
